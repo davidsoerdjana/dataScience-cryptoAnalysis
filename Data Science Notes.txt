@@ -1,0 +1,100 @@
+Berikut adalah kurikulum kilat "Data Mastery" Anda:
+
+
+
+Minggu 1: Fondasi & Data Engineering (The Builder)
+
+Fokus: Bagaimana mengambil data crypto dari internet dan menyimpannya.
+
+
+Materi:
+
+
+Python Dasar: List, Dictionary, Loops, dan Functions.
+
+
+Data Wrangling: Menggunakan library Pandas dan NumPy.
+
+
+API Ingestion: Belajar cara mengambil data harga crypto secara real-time dari API (Contoh: CoinGecko atau Binance API).
+
+
+SQL Dasar: Cara menyimpan data ke dalam database.
+
+
+Tugas Praktik: Buat script Python yang otomatis mengambil harga Bitcoin setiap menit dan menyimpannya ke dalam file CSV atau database lokal.
+
+
+
+Minggu 2: Data Analysis & Visualization (The Storyteller)
+
+Fokus: Membaca grafik dan mencari pola tersembunyi.
+
+
+Materi:
+
+
+Statistik Dasar: Mean, Median, Standar Deviasi, dan Korelasi.
+
+
+Exploratory Data Analysis (EDA): Mencari hubungan antara volume perdagangan dengan kenaikan harga.
+
+
+Visualisasi: Menggunakan Matplotlib atau Plotly untuk membuat grafik Candlestick dan Moving Averages.
+
+
+Tugas Praktik: Buat laporan analisis: "Apakah tweet tokoh publik atau berita besar berpengaruh pada harga Bitcoin dalam 24 jam?"
+
+
+
+Minggu 3: Data Science - Analisis Sentimen & Berita (The Mind Reader)
+
+Fokus: Mengolah informasi non-angka (Berita/Twitter).
+
+
+Materi:
+
+
+NLP (Natural Language Processing): Menggunakan library TextBlob atau VADER.
+
+
+Web Scraping: Mengambil berita dari situs crypto menggunakan BeautifulSoup.
+
+
+Sentiment Scoring: Mengubah berita "Bullish" menjadi angka +1 dan "Bearish" menjadi -1.
+
+
+Tugas Praktik: Buat sistem yang menscan headline berita crypto hari ini dan memberikan skor: "Pasar sedang optimis atau takut?"
+
+
+
+Minggu 4: Machine Learning - Prediksi Harga (The Predictor)
+
+Fokus: Membuat model yang memprediksi harga esok hari.
+
+
+Materi:
+
+Regresi Linier & Time Series: Dasar prediksi angka.
+
+
+Random Forest atau XGBoost: Algoritma yang lebih kuat untuk data kompleks.
+
+
+Evaluasi Model: Menghitung tingkat akurasi (MSE/RMSE).
+
+
+Tugas Praktik: Gabungkan data grafik (Minggu 2) dan data sentimen berita (Minggu 3) ke dalam satu model AI untuk memprediksi apakah harga BTC akan naik atau turun besok.
+
+
+
+Tools yang Harus Anda Instal Sekarang:
+
+Anaconda / Jupyter Notebook: Tempat Anda menulis kode Python dan melihat hasil analisis secara langsung.
+
+
+Visual Studio Code (VS Code): Untuk menulis script data engineering yang lebih panjang.
+
+
+Library Python: Jalankan perintah ini di terminal Anda:
+pip install pandas numpy matplotlib plotly scikit-learn textblob yfinance
